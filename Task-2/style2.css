@@ -1,0 +1,175 @@
+
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #1d1f27;
+      color: #fff;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      margin: 0 0 10px;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #14151b;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ffb400;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* Hero */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 100px 50px;
+      flex-wrap: wrap;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+      color: #ffb400;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .hero .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #ffb400;
+      color: #000;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .hero-img img {
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    /* About */
+    .about {
+      padding: 60px 50px;
+      text-align: center;
+    }
+    .about h2 {
+      color: #ffb400;
+      margin-bottom: 20px;
+    }
+
+    /* Skills/Services */
+    .services {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 60px 50px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #2a2c38;
+      padding: 30px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      background: #ffb400;
+      color: #000;
+    }
+
+    /* Works/Projects */
+    .works {
+      padding: 60px 50px;
+      background: #14151b;
+      text-align: center;
+    }
+    .works h2 {
+      color: #ffb400;
+      margin-bottom: 30px;
+    }
+    .project-list {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .project {
+      background: #2a2c38;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      padding: 60px 50px;
+      text-align: center;
+    }
+    .testimonials h2 {
+      color: #ffb400;
+      margin-bottom: 30px;
+    }
+    .quote {
+      background: #2a2c38;
+      padding: 20px;
+      margin: 10px auto;
+      border-radius: 10px;
+      max-width: 500px;
+    }
+
+    /* Contact */
+    .contact {
+      padding: 60px 50px;
+      text-align: center;
+      background: #14151b;
+    }
+    .contact h2 {
+      color: #ffb400;
+      margin-bottom: 20px;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border: 2px solid #ffb400;
+      border-radius: 5px;
+      color: #ffb400;
+      transition: 0.3s;
+    }
+    .contact a:hover {
+      background: #ffb400;
+      color: #000;
+    }
+
+    /* Footer */
+    footer {
+      background: #111;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
